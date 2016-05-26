@@ -8,7 +8,7 @@ class Squids < Formula
   depends_on "gsl"
 
   def install
-    system "./configure"
+    system "./config"
     system "make","install"
   end
 

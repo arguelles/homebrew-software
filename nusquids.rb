@@ -10,7 +10,7 @@ class NuSquids < Formula
   depends_on "hdf5"
 
   def install
-    system "./configure"
+    system "./config"
     system "make","install"
   end
 
