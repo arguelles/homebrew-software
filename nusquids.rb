@@ -10,7 +10,7 @@ class NuSquids < Formula
   depends_on "hdf5"
 
   def install
-    system "./config.sh"
+    system "./config.sh","--prefix=#{prefix}"
     system "make","install"
   end
 
