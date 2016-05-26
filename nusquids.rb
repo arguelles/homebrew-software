@@ -8,7 +8,7 @@ class Nusquids < Formula
 
   depends_on "gsl"
   depends_on "squids"
-  depends_on "hdf5"
+  depends_on "homebrew/science/hdf5"
 
   def install
     system "mkdir","-p","#{prefix}"
