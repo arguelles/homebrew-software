@@ -1,7 +1,7 @@
 # squids instalation formulae
 # C. Arguelles (2016)
 
-class nusquids < Formula
+class NuSquids < Formula
   homepage "https://github.com/arguelles/nuSQuIDS"
   url "https://github.com/arguelles/nuSQuIDS/archive/0.1.tar.gz"
 
