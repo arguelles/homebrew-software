@@ -4,7 +4,7 @@
 class Squids < Formula
   homepage "https://github.com/jsalvado/SQuIDS"
   url "https://github.com/jsalvado/SQuIDS/archive/v1.1.tar.gz"
-  md5 "bfbe306039ccc52bb81586a1c48274eb"
+  sha256 "38623c2daf4848277ad2246a0cc8be968c3b52d3"
 
   depends_on "gsl"
 
