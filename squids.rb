@@ -9,6 +9,8 @@ class Squids < Formula
 
   def install
     system "mkdir","-p","#{prefix}"
+    system "mkdir","-p","#{prefix}/lib"
+    system "mkdir","-p","#{prefix}/includes"
     system "./config.sh","--prefix=#{prefix}"
     system "make","install"
   end
